@@ -25,6 +25,10 @@
     &--white{
         color: var(--hero-text-color);
     }
+
+    @media screen and (min-width: 1200px) {
+        justify-content: start;
+    }
 }
 
 .footer-contact__list{
@@ -99,6 +103,10 @@
     margin-top: 0;
     margin-bottom: 20px;
     color: var(--hero-text-color);
+
+    @media screen and (min-width: 1200px) {
+        justify-content: start;
+    }
 }
 
 .footer-soc__list{
